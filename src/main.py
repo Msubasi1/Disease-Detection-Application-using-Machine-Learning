@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 # data reading
 pd.set_option('display.expand_frame_repr', False)
 pd.set_option('display.max_rows', None)
-df = pd.read_excel("sdsp_patients.xlsx", engine='openpyxl')
+df = pd.read_excel("/lib/sdsp_patients.xlsx", engine='openpyxl')
 
 # data preparation
 # fill or drop NaN values
